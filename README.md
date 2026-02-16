@@ -1,6 +1,4 @@
-# Jules O'Dea Portfolio - Astro Version
-
-This is an Astro.js migration of the original Next.js portfolio site. It's a single-page portfolio showcasing Jules O'Dea's work as a Frontend Developer based in Auckland, New Zealand.
+# Jules O'Dea - Astro
 
 ## Tech Stack
 
@@ -11,14 +9,6 @@ This is an Astro.js migration of the original Next.js portfolio site. It's a sin
 - **Vercel Analytics** - Performance and analytics tracking
 - **TypeScript** - Type safety
 
-## Features
-
-- ✨ Smooth animations with Framer Motion
-- 🌓 Dark/Light theme toggle
-- 📱 Fully responsive design
-- ⚡️ Fast performance with Astro
-- 📊 Vercel Analytics & Speed Insights integration
-- 📄 PDF CV download endpoint
 
 ## Project Structure
 
@@ -76,18 +66,6 @@ npm run build
 ```bash
 npm run start
 ```
-
-## Migration Notes
-
-This project was migrated from Next.js to Astro.js while maintaining the same features and design:
-
-- **Layout**: Next.js `app/layout.tsx` → Astro `src/layouts/Layout.astro`
-- **Pages**: Next.js App Router → Astro file-based routing
-- **Interactive Components**: React components with `client:load` directive for interactivity
-- **Theme System**: Custom theme toggle using localStorage (replaced `next-themes`)
-- **Analytics**: Maintained Vercel Analytics and Speed Insights
-- **API Routes**: Next.js Route Handlers → Astro API endpoints
-- **Styling**: Kept Tailwind CSS 4.x configuration
 
 ## Deployment
 
