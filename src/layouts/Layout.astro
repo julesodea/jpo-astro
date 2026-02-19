@@ -1,6 +1,6 @@
 ---
 import '../styles/global.css';
-import Nav from '../components/nav/Nav.astro';
+import Nav from '../components/nav/Nav';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 
@@ -52,7 +52,7 @@ const {
     </script>
   </head>
   <body>
-    <Nav />
+    <Nav client:load />
     <div class="mx-auto px-4 max-w-7xl">
       <slot />
     </div>

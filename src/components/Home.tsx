@@ -1,7 +1,7 @@
 import { Wave } from "./wave/Wave";
 import { motion } from "framer-motion";
 
-export default function HomeContent() {
+export default function Home() {
   return (
     <div className="min-h-[100dvh] flex flex-col justify-center pt-[10dvh]">
       <div className="flex flex-col justify-center items-start">
@@ -17,7 +17,7 @@ export default function HomeContent() {
           , a{" "}
           <span className="italic dark:text-neutral-300 text-neutral-800">
             Frontend Developer
-          </span>{" "}
+          </span>{" "} <br />
           based in Auckland.
         </motion.h1>
       </div>
